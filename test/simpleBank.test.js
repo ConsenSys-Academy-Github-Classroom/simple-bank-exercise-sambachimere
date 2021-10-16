@@ -37,7 +37,7 @@ contract("SimpleBank", function (accounts) {
       "owner is not correct",
     );
   });
-
+  
   it("should mark addresses as enrolled", async () => {
     await instance.enroll({ from: alice });
 
